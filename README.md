@@ -94,7 +94,7 @@ And also supporting events all of the [TextInput Component of React Native](http
   
   
 ## License  
-**React Native - Animated Searhbox** is an open source project that is licensed under the [MIT license](http://opensource.org/licenses/MIT).  
+**React Native - Animated Searchbox** is an open source project that is licensed under the [MIT license](http://opensource.org/licenses/MIT).  
   
   
 ## Credits  
