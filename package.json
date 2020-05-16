@@ -1,0 +1,35 @@
+{
+  "name": "react-native-animated-searchbox",
+  "version": "0.0.1",
+  "description": "A simple search box with animation. Compatible with Expo CLI and React Native CLI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurayyarar/React-Native-Animated-Searchbox.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react-native-searchbox",
+    "react-component",
+    "ios",
+    "android",
+    "web"
+  ],
+  "author": "gurayyarar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gurayyarar/React-Native-Animated-Searchbox/issues"
+  },
+  "homepage": "https://github.com/gurayyarar/React-Native-Animated-Searchbox#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.20.0",
+    "prop-types": "^15.5.7"
+  }
+}
