@@ -40,6 +40,7 @@ class ReactNativeAnimatedSearchbox extends React.Component {
             toValue: 1,
             duration: animationSpeed[0],
             easing: Easing.linear,
+            useNativeDriver:false,
         }).start(() => {
             setTimeout(() => {
                 this.setState({isScaled: true});
@@ -48,6 +49,7 @@ class ReactNativeAnimatedSearchbox extends React.Component {
                     toValue: this.state.width,
                     duration: animationSpeed[1],
                     easing: Easing.linear,
+                    useNativeDriver:false,
                 }).start(() => {
                     onOpened && onOpened();
                     if (focusAfterOpened) this.refTextInput.focus();
@@ -65,6 +67,7 @@ class ReactNativeAnimatedSearchbox extends React.Component {
             toValue: this.props.height,
             duration: animationSpeed[1],
             easing: Easing.linear,
+            useNativeDriver:false,
         }).start(() => {
             this.setState({isScaled: false});
 
@@ -73,6 +76,7 @@ class ReactNativeAnimatedSearchbox extends React.Component {
                     toValue: 0,
                     duration: animationSpeed[0],
                     easing: Easing.linear,
+                    useNativeDriver:false,
                 }).start(() => {
                     onClosed && onClosed();
                 });
